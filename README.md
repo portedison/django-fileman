@@ -67,6 +67,13 @@ template:
 
 TinyMCE 4.x is required.
 
+Add the following to `base_site.html`
+
+      {% block extrahead %}
+        {% include 'fileman/static.html' %}
+      {% endblock %}
+
+
 
 ## Running tests
 
